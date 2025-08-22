@@ -1,0 +1,33 @@
+# CODEOWNERS file for config-server-851
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-release @Armor-test/squad-qa @Armor-test/grp-payments
+
+# Directory ownership
+/data/ @Armor-test/squad-mobile @Armor-test/grp-api
+/services/ @Armor-test/dept-data @Armor-test/unit-test @Armor-test/squad-database
+/plugins/ @Armor-test/dept-billing @Armor-test/squad-tooling @Armor-test/dept-api
+/extensions/ @Armor-test/squad-frontend @Armor-test/unit-governance @Armor-test/squad-mobile
+/src/ @Armor-test/team-governance @Armor-test/squad-tooling
+/third_party/ @Armor-test/grp-reporting @Armor-test/team-security
+/internal/ @Armor-test/dept-reliability @Armor-test/grp-search
+/models/ @Armor-test/squad-cache @Armor-test/unit-devops
+/db/ @Armor-test/unit-governance @Armor-test/team-research @Armor-test/squad-frontend
+/spec/ @Armor-test/squad-cloud @Armor-test/team-logging
+/pages/ @Armor-test/dept-logging @Armor-test/squad-payments @Armor-test/grp-payments
+
+# File type ownership
+*.json @Armor-test/grp-storage @Armor-test/squad-product @Armor-test/squad-qa
+*.scala @Armor-test/unit-design @Armor-test/dept-billing
+*.css @Armor-test/squad-product @Armor-test/squad-reporting
+*.cs @Armor-test/squad-search @Armor-test/team-security
+*.c @Armor-test/dept-reporting @Armor-test/squad-mobile @Armor-test/grp-payments
+*.ini @Armor-test/grp-api @Armor-test/dept-notifications @Armor-test/team-frontend
+*.tf @Armor-test/team-notifications @Armor-test/squad-tooling
+*.ts @Armor-test/team-governance @Armor-test/team-logging
+*.go @Armor-test/squad-product @Armor-test/dept-logging @Armor-test/dept-reporting
+*.properties @Armor-test/unit-cloud @Armor-test/squad-payments
+
+# Security and special files
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/security/ @Armor-test/security @Armor-test/compliance
